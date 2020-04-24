@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Care &amp; Cure</string>
+    <string name="LookingForNearest">looking for nearest</string>
+    <string name="hospital">Hospitals</string>
+    <string name="clinics">Clinics</string>
+    <string name="pharmacies">Pharmacies</string>
+    <string name="ven">Veterinary</string>
+    <string name="Permission_Denied">Permission Denied</string>
+    <string name="Permission_DeniedText">Permission to access device location is permanently denied. you need to go to setting to allow the permission.</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="nearest">  Nearest  </string>
+    <string name="title_activity_map" translatable="false">MapActivity</string>
+    <string name="actionButton">Your Location</string>
+    <string name="refresh">Refresh</string>
+    <string name="refreshed">Refreshed!</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="currentUserLocation">Current Location</string>
+</resources>

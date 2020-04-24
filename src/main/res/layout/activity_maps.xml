@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activites.MapsActivity" />
+
+    <ImageView
+        android:id="@+id/B_hopistals"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:src="@drawable/hospital"
+        android:layout_alignParentTop="true"
+        android:onClick="onClick" />
+
+    <ImageView
+        android:id="@+id/clinics"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/B_hopistals"
+        android:src="@drawable/clinics"
+
+        android:onClick="onClick" />
+
+    <ImageView
+        android:id="@+id/pharmacy"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/pharmacy"
+        android:layout_toEndOf="@+id/clinics"
+        android:onClick="onClick" />
+
+    <ImageView
+        android:id="@+id/vet"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:src="@drawable/veterinary"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/pharmacy"
+        android:onClick="onClick" />
+
+
+
+</RelativeLayout>

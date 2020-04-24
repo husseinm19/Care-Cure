@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Care &amp; Cure</string>
+    <string name="LookingForNearest">أبحث عن أقرب</string>
+    <string name="clinics">عياده</string>
+    <string name="hospital">مستشفي</string>
+    <string name="pharmacies">صيدليه</string>
+    <string name="ven">عياده بطرية</string>
+    <string name="Permission_Denied">طلب الوصول مرفوض</string>
+    <string name="Permission_DeniedText">"تم رفض إذن الوصول إلى موقع الجهاز بشكل دائم. تحتاج إلى الذهاب إلى الإعدادات للسماح بالإذن. "</string>
+    <string name="cancel">الغاء</string>
+    <string name="ok">حسنا</string>
+    <string name="actionButton">مكاني</string>
+    <string name="nearest">أقرب</string>
+    <string name="refresh">تحديث</string>
+    <string name="refreshed">تم تحديث البيانات !</string>
+    <string name="currentUserLocation">مكاني الحالي</string>
+</resources>
